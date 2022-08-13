@@ -1,0 +1,11 @@
+{
+  "name": "PSGO 9.00",
+  "version": "V8.8E",
+  "home_assistant_domain": "esphome",
+  "builds": [
+    {
+      "chipFamily": "ESP8266",
+      "parts": [{ "path": "8266.bin", "offset": 0 }]
+    }
+  ]
+}

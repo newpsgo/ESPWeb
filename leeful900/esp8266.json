@@ -1,0 +1,11 @@
+{
+  "name": "Leeful 9.00",
+  "version": "V4.1U",
+  "home_assistant_domain": "esphome",
+  "builds": [
+    {
+      "chipFamily": "ESP8266",
+      "parts": [{ "path": "8266.bin", "offset": 0 }]
+    }
+  ]
+}

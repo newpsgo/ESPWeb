@@ -1,0 +1,11 @@
+{
+  "name": "Karo 9.00 CM完整版",
+  "version": "2022.05",
+  "home_assistant_domain": "esphome",
+  "builds": [
+    {
+      "chipFamily": "ESP8266",
+      "parts": [{ "path": "8266.bin", "offset": 0 }]
+    }
+  ]
+}

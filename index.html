@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+ <head> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="https://www.psgo.tk/psgo.ico" type="image/x-icon">
+  <title>ESP固件导航 - PSGO.TK</title> 
+	 <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7VRDNYTJ1Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7VRDNYTJ1Y');
+</script>
+  <style>
+    
+body{
+    background-image:url(bg.png);
+    background-color:#080808;
+    background-attachment:fixed;
+    background-size:100%;
+    background-repeat:no-repeat;
+    font-family:system-ui;
+	text-align:center
+    }
+		
+    a:hover{
+	text-decoration: none;
+    border-bottom: 1.5px solid;
+	padding-bottom: 5px;
+	}
+    
+    button:-moz-focus-inner, button:focus{
+    outline:0;
+    border:none
+	}
+	
+	option{
+    background-color:#080808;
+    }
+	
+    button{
+    font-family:arial;
+    font-size:22px;
+    font-weight:700;
+    border:2px solid #404040;
+    border-radius:4px;
+	margin:10px 2px; 
+    padding:10px;
+    cursor:pointer;
+    display:inline-block;
+    text-decoration:none;
+    background:#1d9bf0;
+    box-shadow:0 5px 0 #888888;
+    } 
+
+    button:hover{
+    color:#1d9bf0;
+    font-size:22px;
+    background:#161616;
+    border:2px solid #fff;
+    box-shadow:0 5px 0 #ccc;
+    } 
+    
+    button:active{
+    background:#1d9bf0;
+    position:relative;
+    color:#000;
+    top:5px;
+    box-shadow:none
+    }
+    
+   .bottopmsg{
+
+
+	padding:5px 0 1px 0;
+	color:#1d9bf0;
+	text-align: center;
+	font-size:16px;
+    }
+	
+      /** variables */
+      :root {
+        /*orig*/
+
+        --color-black: black;
+        --color-cod-gray: #101010;
+        --color-white: white;
+        --color-error: rgb(191, 95, 95);
+        --color-primary-rgba: 0, 192, 251;
+        --color-primary: #00c0fb;
+        --color-secondary-rgba: 234, 182, 56;
+        --color-secondary: #eab638;
+      }
+
+      .tiles {
+        display: flex;
+        flex-direction: column;
+		z-index:-1;
+        justify-content: center;
+        left: 50%;
+        position: fixed;
+        top: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%) rotate(22.5deg);
+      }
+      .tiles__line {
+        -webkit-animation: runner 20s linear infinite;
+        display: flex;
+        transform: translateX(25%);
+      }
+      .tiles__line:nth-child(2) {
+        -webkit-animation-duration: 32s;
+      }
+      .tiles__line:nth-child(3) {
+        -webkit-animation-duration: 44s;
+      }
+
+      @keyframes runner {
+        to {
+          -webkit-transform: translateX(-25%);
+        }
+      }
+      .tiles__line-img {
+        --tile-margin: 3vw;
+        background-position: 50% 50%;
+        background-size: cover;
+        border-radius: 50%;
+        flex: none;
+        height: 30vh;
+        margin: var(--tile-margin);
+        width: 30vh;
+        background-color:#1d9bf0;
+        opacity: 0.3;
+
+      }
+      .tiles__line-img--large {
+        border-radius: 20vh;
+        width: 100vh;
+        opacity: 0.3;
+      }
+  
+</style> 
+ </head> 
+ <body> 
+  <br> 
+  <h1 style="font-size:60px;text-align:center;font-style:italic;"><font color="#1d9bf0">ESP 固件导航</font></h1> 
+  <div id="mymenu"> 
+  <div id="progress" style="font-size:30px;text-align:center;color:#fff;font-style:italic;font-weight:bold;">精选收录15个ESP固件 <font color="#1d9bf0"> 在线刷机更方便</font></div> 
+  <br> 
+  <table align="center"> 
+  
+  <tr><td align="center">
+<button type="button" onclick="window.open('local/index.html')";><font color=""> 从我的电脑本地选择固件刷机 </font></button>
+</td></tr>
+<tr><td><br><br></td></tr>
+<tr><td><font size="5" color="white">ESP8266</font></td></tr>
+<tr><td align="center">
+<button type="button" onclick="window.open('karo505f/index.html')";><font color=""> Karo505 完整 </font></button>
+<button type="button" onclick="window.open('karo672f/index.html')";><font color=""> Karo672 完整 </font></button>
+<button type="button" onclick="window.open('karo702l/index.html')";><font color=""> Karo702 轻量 </font></button>
+<button type="button" onclick="window.open('karo755l/index.html')";><font color=""> Karo755 轻量 </font></button>
+
+</td></tr>
+
+<tr><td align="center" >
+<button type="button" onclick="window.open('leeful900/index.html')";><font color=""> Leeful900 轻量 </font></button>
+<button type="button" onclick="window.open('karo900l/index.html')";><font color=""> Karo900 轻量 </font></button>
+<button type="button" onclick="window.open('karo900f/index.html')";><font color=""> Karo900 完整 </font></button>
+<button type="button" onclick="window.open('psgo900f/index.html')";><font color=""> PSGO900 V8.8E </font></button>
+</td></tr>
+
+<tr><td><br><br></td></tr>
+<tr><td><font size="5" color="white">ESP32</font></td></tr>
+<tr><td align="center">
+<button type="button" onclick="window.open('prb900l32/index.html')";><font color=""> Leeful/Prb900 轻量 </font></button>
+<button type="button" onclick="window.open('macedo900f32/index.html')";><font color=""> Macedo900 完整 </font></button>
+<button type="button" onclick="window.open('nightking900f32/index.html')";><font color=""> NightKing900 完整 </font></button>
+
+</td></tr>
+
+<tr><td align="center">
+
+<button type="button" onclick="window.open('karo900l32/index.html')";><font color=""> Karo900 轻量 </font></button>
+<button type="button" onclick="window.open('karo900f32/index.html')";><font color=""> Karo900CM 完整 </font></button>
+<button type="button" onclick="window.open('caihong900f32/index.html')";><font color=""> 彩虹900 完整 </font></button>
+<button type="button" onclick="window.open('psgo900f32/index.html')";><font color=""> PSGO900 V8.8E </font></button>
+</td></tr>
+
+<tr><td><br><br><br></td></tr>
+<tr><td><font size="4.5" color="#1d9bf0">跳转到网页版折腾</font></td></tr>
+
+<tr><td align="center">
+<button type="button"  onclick="window.open('https://www.psgo.tk')"; style="width:350px;"><font color=""> PSGO.TK 新版折腾导航首页 </font> </button>
+<button type="button"  onclick="window.open('https://aio.psgo.tk')"; style="width:350px;"><font color=""> All in One 原版原链接折腾导航 </font> </button>
+
+</td></tr>
+   </table> 
+  </div> 
+  <div class="bottopmsg"> 
+  <br><br><br><br><br>
+   <h1 style="font-size:23px;text-align:center;"><font color="#ffffff">你的喜欢与分享 <font color="#1d9bf0"> 是我更新的动力</font> </font></h1>
+   <a href="https://www.psgo.tk/faqpsgo.html" target="_blank" style="color:#1d9bf0;font-size:16px;text-align:center;text-decoration:none;">常见问题</a> &nbsp;·&nbsp; 
+   <a href="https://game.psgo.tk/index.html" target="_blank" style="color:#1d9bf0;font-size:16px;text-align:center;text-decoration:none;">资源导航</a> &nbsp;·&nbsp; 
+   <a href="https://www.psgo.tk/base64.html" target="_blank" style="color:#1d9bf0;font-size:16px;text-align:center;text-decoration:none;"> 解密神器 </a> &nbsp;·&nbsp; 
+   <a href="https://www.psgo.tk/disclaimer.html" target="_blank" style="color:#1d9bf0;font-size:16px;text-align:center;text-decoration:none;">免责声明</a>
+  </div> 
+  <div style="display:none" class="tiles"> 
+   <div class="tiles__line"> 
+    <div class="tiles__line-img tiles__line-img--large"></div> 
+    <div class="tiles__line-img"></div> 
+    <div class="tiles__line-img"></div> 
+    <div class="tiles__line-img tiles__line-img--large"></div> 
+    <div class="tiles__line-img"></div> 
+    <div class="tiles__line-img"></div> 
+   </div> 
+   <div class="tiles__line"> 
+    <div class="tiles__line-img"></div> 
+    <div class="tiles__line-img"></div> 
+    <div class="tiles__line-img tiles__line-img--large"></div> 
+    <div class="tiles__line-img"></div> 
+    <div class="tiles__line-img"></div> 
+    <div class="tiles__line-img tiles__line-img--large"></div> 
+   </div> 
+   <div class="tiles__line"> 
+    <div class="tiles__line-img"></div> 
+    <div class="tiles__line-img tiles__line-img--large"></div> 
+    <div class="tiles__line-img"></div> 
+    <div class="tiles__line-img"></div> 
+    <div class="tiles__line-img tiles__line-img--large"></div> 
+    <div class="tiles__line-img"></div> 
+   </div> 
+   <div class="tiles__line"> 
+    <div class="tiles__line-img"></div> 
+    <div class="tiles__line-img tiles__line-img--large"></div> 
+    <div class="tiles__line-img"></div> 
+    <div class="tiles__line-img"></div> 
+    <div class="tiles__line-img tiles__line-img--large"></div> 
+    <div class="tiles__line-img"></div> 
+   </div>  
+  </div>
+ </body>
+</html>
