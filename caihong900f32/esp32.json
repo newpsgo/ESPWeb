@@ -1,6 +1,6 @@
 {
   "name": "彩虹固件 9.00",
-  "version": "V3.1.1",
+  "version": "V3.4.1",
   "home_assistant_domain": "esphome",
   "builds": [
     {
