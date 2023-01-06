@@ -1,6 +1,6 @@
 {
-  "name": "Leeful/Prb 9.00 轻量版",
-  "version": "2022.05",
+  "name": "Leeful PS-Phive 9.00",
+  "version": "2023.01",
   "home_assistant_domain": "esphome",
   "builds": [
     {
