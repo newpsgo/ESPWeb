@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initBaudRate();
   loadAllSettings();
   updateTheme();
-  logMsg("先使用数据线连接ESP8266/ESP32并点击顶部按钮，然后选择本地Bin固件开始刷机");
+  logMsg("首次刷机先安装ESP驱动，数据线连接ESP8266/ESP32并点击顶部按钮，然后选择本地Bin固件开始刷机");
 });
 
 function initBaudRate() {
